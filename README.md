@@ -1,2 +1,2 @@
-# codium
+# Coderismus
 Code challenges
