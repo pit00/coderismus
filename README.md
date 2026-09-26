@@ -113,3 +113,9 @@
 [Knapsack](https://exercism.org/tracks/python/exercises/knapsack)
 - [ ] C
 - [ ] Python
+
+---
+
+[Multiples of 3 or 5](https://projecteuler.net/problem=1)
+- [X] [C](./c/mults.c)
+- [ ] Python
