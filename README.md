@@ -119,3 +119,15 @@
 [Multiples of 3 or 5](https://projecteuler.net/problem=1)
 - [X] [C](./c/mults.c)
 - [ ] Python
+
+---
+
+[Even Fibonacci Numbers](https://projecteuler.net/problem=2)
+- [X] [C](./c/fibo.c)
+- [ ] Python
+
+---
+
+[Largest Prime Factor](https://projecteuler.net/problem=3)
+- [X] [C](./c/prime.c)
+- [ ] Python
