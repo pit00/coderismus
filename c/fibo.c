@@ -3,7 +3,7 @@
 int fibo(int max){
     int f1 = 1, f2 = 2, f3, sum = 2;
     
-    for(int i = 1; i < 50; i++){
+    for(int i = 1; i < 50; i++){ // 50 is a guess, could be while(true)
         f3 = f1 + f2;
         f1 = f2;
         f2 = f3;

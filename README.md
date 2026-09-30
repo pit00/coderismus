@@ -131,3 +131,14 @@
 [Largest Prime Factor](https://projecteuler.net/problem=3)
 - [X] [C](./c/prime.c)
 - [ ] Python
+
+---
+
+[Largest Palindrome Product](https://projecteuler.net/problem=4)
+- [X] [C](./c/pali.c)
+- [ ] Python
+---
+
+[Smallest Multiple](https://projecteuler.net/problem=5)
+- [ ] [C](./c/small.c)
+- [ ] Python

@@ -29,7 +29,6 @@ int prime(long long numb){
         }
         
         p++;
-        aux = 2;
     }
     
     return last;
