@@ -155,3 +155,9 @@
 [10 001st Prime](https://projecteuler.net/problem=7)
 - [X] [C](./c/10001.c)
 - [ ] Python
+
+---
+
+[Largest Product in a Series](https://projecteuler.net/problem=8)
+- [X] [C](./c/series.c)
+- [ ] Python
