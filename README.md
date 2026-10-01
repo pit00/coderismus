@@ -140,5 +140,5 @@
 ---
 
 [Smallest Multiple](https://projecteuler.net/problem=5)
-- [ ] [C](./c/small.c)
+- [X] [C](./c/small.c)
 - [ ] Python

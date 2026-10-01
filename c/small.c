@@ -1,29 +1,33 @@
 #include <assert.h>
-#include <stdio.h>
+// #include <stdio.h>
 
-int small(int max){
-    int aux = max, count = 2;
+int small(){
+    int primes[] = {2, 3, 5, 7, 11, 13, 17, 19}; // calc otherwhere
+    int min = 9699690; // min prime prod = 2 * 3 * 5 * 7 * 11 * 13 * 17 * 19
+    int aux, pri;
     
-    while(count < 100){
-        for(int i = max; i >= 2; i--){
-            if(aux % i != 0){
-                // printf("RIP\n");
-                break;
+    for(int i = 2; i <= 20; i++){
+        // number not div
+        if(min % i != 0){
+            aux = 0;
+            while(1){
+                pri = primes[aux];
+                
+                // find min prime of the number
+                if(i % pri == 0){
+                    min *= pri; // mult prime prod
+                    break;
+                }
+                aux++;
             }
-            if (i == 2)
-                printf("GG\n");
-            
         }
-        count++;
-        aux = max;
-        aux *= count;
     }
     
-    return 4613732;
+    return min;
 }
 
 int main(void){
-    assert(small(20) == 4613732);
+    assert(small() == 232792560);
     
     return 0;
 }
