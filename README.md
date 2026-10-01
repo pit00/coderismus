@@ -137,8 +137,21 @@
 [Largest Palindrome Product](https://projecteuler.net/problem=4)
 - [X] [C](./c/pali.c)
 - [ ] Python
+
 ---
 
 [Smallest Multiple](https://projecteuler.net/problem=5)
 - [X] [C](./c/small.c)
+- [ ] Python
+
+---
+
+[Sum Square Difference](https://projecteuler.net/problem=6)
+- [X] [C](./c/square.c)
+- [ ] Python
+
+---
+
+[10 001st Prime](https://projecteuler.net/problem=7)
+- [X] [C](./c/10001.c)
 - [ ] Python

@@ -28,6 +28,7 @@ int prime(long long numb){
             p *= -1;
         }
         
+        aux = 2;
         p++;
     }
     
