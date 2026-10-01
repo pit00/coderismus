@@ -161,3 +161,15 @@
 [Largest Product in a Series](https://projecteuler.net/problem=8)
 - [X] [C](./c/series.c)
 - [ ] Python
+
+---
+
+[Special Pythagorean Triplet](https://projecteuler.net/problem=9)
+- [X] [C](./c/pytha.c)
+- [ ] Python
+
+---
+
+[Summation of Primes](https://projecteuler.net/problem=10)
+- [X] [C](./c/sprime.c)
+- [ ] Python
