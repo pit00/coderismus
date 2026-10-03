@@ -183,5 +183,5 @@
 ---
 
 [Highly Divisible Triangular Number](https://projecteuler.net/problem=12)
-- [ ] [C](./c/triag.c)
+- [X] [C](./c/triag.c)
 - [ ] Python
