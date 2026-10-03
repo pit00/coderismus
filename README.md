@@ -188,6 +188,12 @@
 
 ---
 
-[Highly Divisible Triangular Number](https://projecteuler.net/problem=13)
-- [X] [C](./c/triag.c)
+[Large Sum](https://projecteuler.net/problem=13)
+- [X] [C](./c/sum.c)
+- [ ] Python
+
+---
+
+[Longest Collatz Sequence](https://projecteuler.net/problem=14)
+- [ ] [C](./c/collatz.c)
 - [ ] Python
