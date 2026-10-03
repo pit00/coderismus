@@ -185,3 +185,9 @@
 [Highly Divisible Triangular Number](https://projecteuler.net/problem=12)
 - [X] [C](./c/triag.c)
 - [ ] Python
+
+---
+
+[Highly Divisible Triangular Number](https://projecteuler.net/problem=13)
+- [X] [C](./c/triag.c)
+- [ ] Python

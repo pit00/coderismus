@@ -1,46 +1,43 @@
 #include <assert.h>
-#include <stdio.h>
+// #include <stdio.h>
+#include <math.h>
 
-int triag(int pos){
-    int p = 1, count = 2, i = 0;
-    int primes[pos + 1];
-    primes[0] = 2; // first prime
-    primes[1] = 3; // second prime
-    int t = 2;
+int triag(int div){
+    int t = 1, n = 1, factors = 0;
+    
     while(1){
-        p = p + t;
-        printf("%d\n", p);
-        while(primes[i] * primes[i] <= p){ // stay here to test if prime [+], or break [-]
-            if (p % primes[i] == 0){ // not prime: negative
-                p *= -1;
-                break;
-            }
-            i++;
-            // prime: positive
-        }
-        i = 0; // reset
+        t = ((n * (n + 1)) / 2);
+        n++;
         
-        if(p > 0){
-            primes[count] = p;
-            count++;
-            
-            // Found
-            if (count == pos){
-                // printf("%d\n", p);
-                break;
+        double st = sqrt(t);
+        
+        for(int i = (int)st; i > 0; i--){
+            if (t % i == 0){
+                factors++;
             }
-        } else {
-            p *= -1;
+        }
+        factors *= 2; // divisor comes in pairs
+        
+        // perfect square
+        if(st * st == (double)t){
+            factors--;
         }
         
-        p++;
+        // printf("%d\n", factors);
+        if(factors > div){
+            // printf("%d\n", factors);
+            // printf("%d\n", t);
+            break;
+        }
+        
+        factors = 0;
     }
     
-    return p;
+    return t;
 }
 
 int main(void){
-    assert(triag(500) == 5);
+    assert(triag(500) == 76576500);
     
     return 0;
 }
