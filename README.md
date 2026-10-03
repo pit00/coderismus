@@ -173,3 +173,15 @@
 [Summation of Primes](https://projecteuler.net/problem=10)
 - [X] [C](./c/sprime.c)
 - [ ] Python
+
+---
+
+[Largest Product in a Grid](https://projecteuler.net/problem=11)
+- [X] [C](./c/grid.c)
+- [ ] Python
+
+---
+
+[Highly Divisible Triangular Number](https://projecteuler.net/problem=12)
+- [ ] [C](./c/triag.c)
+- [ ] Python
