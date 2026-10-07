@@ -195,5 +195,11 @@
 ---
 
 [Longest Collatz Sequence](https://projecteuler.net/problem=14)
-- [ ] [C](./c/collatz.c)
+- [X] [C](./c/collatz.c)
+- [ ] Python
+
+---
+
+[Lattice Paths](https://projecteuler.net/problem=15)
+- [ ] [C](./c/lattice.c)
 - [ ] Python
