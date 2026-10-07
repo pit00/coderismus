@@ -201,5 +201,5 @@
 ---
 
 [Lattice Paths](https://projecteuler.net/problem=15)
-- [ ] [C](./c/lattice.c)
+- [X] [C](./c/lattice.c)
 - [ ] Python
