@@ -209,3 +209,9 @@
 [Power Digit Sum](https://projecteuler.net/problem=16)
 - [X] [C](./c/power_sum.c)
 - [ ] Python
+
+---
+
+[Number Letter Counts](https://projecteuler.net/problem=17)
+- [X] [C](./c/counts.c)
+- [ ] Python
