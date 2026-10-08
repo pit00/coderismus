@@ -203,3 +203,9 @@
 [Lattice Paths](https://projecteuler.net/problem=15)
 - [X] [C](./c/lattice.c)
 - [ ] Python
+
+---
+
+[Power Digit Sum](https://projecteuler.net/problem=16)
+- [X] [C](./c/power_sum.c)
+- [ ] Python
