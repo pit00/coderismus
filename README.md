@@ -215,3 +215,9 @@
 [Number Letter Counts](https://projecteuler.net/problem=17)
 - [X] [C](./c/counts.c)
 - [ ] Python
+
+---
+
+[Maximum Path Sum I](https://projecteuler.net/problem=18)
+- [X] [C](./c/pathi.c)
+- [ ] Python
