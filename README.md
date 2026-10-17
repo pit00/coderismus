@@ -95,7 +95,7 @@
 ---
 
 [Power Digit Sum](https://projecteuler.net/problem=16)
-- [X] [C](./c/power_sum.c)
+- [X] [C](./c/powsum.c)
 - [ ] Python
 
 ---
@@ -113,7 +113,13 @@
 ---
 
 [Counting Sundays](https://projecteuler.net/problem=19)
-- [ ] [C](./c/sundays.c)
+- [X] [C](./c/sundays.c)
+- [ ] Python
+
+---
+
+[Factorial Digit Sum](https://projecteuler.net/problem=20)
+- [X] [C](./c/facsum.c)
 - [ ] Python
 
 ---
