@@ -142,6 +142,12 @@
 
 ---
 
+[Lexicographic Permutations](https://projecteuler.net/problem=24)
+- [X] [C](./c/lexicog.c)
+- [ ] Python
+
+---
+
 [Number Spiral Diagonals](https://projecteuler.net/problem=28)
 - [ ] C
 - [X] Python
