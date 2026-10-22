@@ -154,6 +154,12 @@
 
 ---
 
+[Reciprocal Cycles](https://projecteuler.net/problem=26)
+- [X] [C](./c/recip.c)
+- [ ] Python
+
+---
+
 [Number Spiral Diagonals](https://projecteuler.net/problem=28)
 - [ ] C
 - [X] Python
