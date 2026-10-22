@@ -148,6 +148,12 @@
 
 ---
 
+[1000-digit Fibonacci Number](https://projecteuler.net/problem=25)
+- [X] [C](./c/kfibo.c)
+- [ ] Python
+
+---
+
 [Number Spiral Diagonals](https://projecteuler.net/problem=28)
 - [ ] C
 - [X] Python
