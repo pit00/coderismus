@@ -124,6 +124,18 @@
 
 ---
 
+[Factorial Digit Sum](https://projecteuler.net/problem=21)
+- [X] [C](./c/amicable.c)
+- [ ] Python
+
+---
+
+[Names Scores](https://projecteuler.net/problem=22)
+- [X] [C](./c/scores.c)
+- [ ] Python
+
+---
+
 [Number Spiral Diagonals](https://projecteuler.net/problem=28)
 - [ ] C
 - [X] Python

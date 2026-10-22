@@ -19,7 +19,7 @@ int triag(int div){
         factors *= 2; // divisor comes in pairs
         
         // perfect square
-        if(st * st == (double)t){
+        if((int)st * (int)st == t){
             factors--;
         }
         
